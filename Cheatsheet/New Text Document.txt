@@ -1,0 +1,17 @@
+myvenv\Scripts\activate
+#start the env
+
+django-admin startproject mysite
+#starts a new project called mysite
+
+python manage.py runserver
+#will run the server
+
+python manage.py startapp polls
+#will start a new server called polls
+
+python manage.py migrate
+#will create necessary databases tables according to settings
+
+python manage.py makemigrations polls
+#changes methods so it tells django that changes are made to the models
